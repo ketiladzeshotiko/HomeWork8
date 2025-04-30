@@ -196,9 +196,11 @@ margin-bottom: 8px;
 }
 .picturediv2{
     width: 540px;
-    background-color: crimson;
+    /* background-color: crimson; */
     position: absolute;
-    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
     
 
@@ -225,6 +227,7 @@ line-height: 48px;
 letter-spacing: -0.5px;
 text-align: center;
 color: white;
+margin-bottom: 10px;
 }
 
 
@@ -296,6 +299,10 @@ line-height: 28px;
 letter-spacing: 0px;
 vertical-align: middle;
 
+    }
+    .picturediv2{
+        width: 100%;
+        max-width: 540px;
     }
 }
 
@@ -372,6 +379,15 @@ letter-spacing: -1px;
 .rightp{
     width: 327px;
     text-align: center;
+}
+h5{
+    font-family: Inter;
+font-weight: 900;
+font-size: 28px;
+line-height: 48px;
+letter-spacing: -0.5px;
+text-align: center;
+
 }
 
 }
